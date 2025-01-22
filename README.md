@@ -57,6 +57,7 @@ yarn build
 ```
 Project Structure
 
+```bash
 src/
 ├── components/
 │   ├── Cart/
@@ -97,7 +98,7 @@ src/
 ├── App.jsx
 ├── index.css
 ├── main.jsx
-
+```
 
 Dependencies
 React: Main library for building the user interface.
