@@ -26,34 +26,35 @@ Follow these steps to install and run the project on your local machine.
 ```bash
 git clone https://github.com/your-username/techstore.git
 cd techstore
+```
 
 Install dependencies
 Using npm:
-
+```bash
 npm install
-
+```
 Using yarn:
-
+```bash
 yarn install
-
+```
 Run the development server
 Using npm:
-
+```bash
 npm run dev
-
+```
 Using yarn:
-
+```bash
 yarn dev
-
+```
 Build for production
 Using npm:
-
+```bash
 npm run build
-
+```
 Using yarn:
-
+```bash
 yarn build
-
+```
 Project Structure
 
 src/
