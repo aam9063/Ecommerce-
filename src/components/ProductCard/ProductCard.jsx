@@ -15,25 +15,25 @@ function ProductCard({ product }) {
   return (
     <motion.div
       whileHover={{ y: -5 }}
-      className="overflow-hidden bg-white shadow-lg rounded-2xl"
+      className="flex flex-col h-full overflow-hidden bg-white shadow-lg rounded-2xl"
     >
-      <Link to={`/products/${product.id}`} className="block">
-        <div className="relative group">
+      <Link to={`/products/${product.id}`} className="flex flex-col flex-1">
+        <div className="relative group aspect-[4/3] overflow-hidden">
           <img
             src={product.thumbnail}
             alt={product.title}
             loading="lazy"
-            className="object-cover w-full transition-transform duration-300 h-84 group-hover:scale-105"
+            className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
           />
           <div className="absolute inset-0 transition-all duration-300 bg-black bg-opacity-0 group-hover:bg-opacity-20" />
         </div>
 
-        <div className="p-6">
+        <div className="flex flex-col flex-1 p-6">
           <div className="flex items-start justify-between mb-2">
             <h3 className="text-lg font-semibold text-gray-800 line-clamp-2">
               {product.title}
             </h3>
-            <span className="px-2 py-1 text-sm rounded-lg bg-primary/10 text-primary">
+            <span className="px-2 py-1 ml-2 text-sm rounded-lg bg-primary/10 text-primary whitespace-nowrap">
               {product.category}
             </span>
           </div>
@@ -60,41 +60,41 @@ function ProductCard({ product }) {
             </div>
           </div>
 
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-primary">
-                ${product.price}
-              </span>
-              {product.discountPercentage > 0 && (
-                <span className="text-sm text-red-500">
-                  -{Math.round(product.discountPercentage)}%
+          <div className="mt-auto">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2">
+                <span className="text-2xl font-bold text-primary">
+                  ${product.price}
                 </span>
-              )}
+                {product.discountPercentage > 0 && (
+                  <span className="text-sm text-red-500">
+                    -{Math.round(product.discountPercentage)}%
+                  </span>
+                )}
+              </div>
+              
+              <motion.button
+                whileTap={{ scale: 0.95 }}
+                onClick={handleAddToCart}
+                className="flex items-center gap-2 p-2 text-white transition-colors duration-300 rounded-xl bg-primary hover:bg-secondary"
+              >
+                <FaShoppingCart />
+                <span className="hidden sm:inline">Añadir</span>
+              </motion.button>
             </div>
-            
-            <motion.button
-              whileTap={{ scale: 0.95 }}
-              onClick={handleAddToCart}
-              className="flex items-center gap-2 p-2 text-white transition-colors duration-300 rounded-xl bg-primary hover:bg-secondary"
-            >
-              <FaShoppingCart />
-              <span className="hidden sm:inline">Añadir</span>
-            </motion.button>
-          </div>
 
-          <div className="mt-4">
             <p className="text-sm text-gray-600 line-clamp-2">
               {product.description}
             </p>
-          </div>
 
-          {product.stock < 10 && (
-            <div className="mt-3">
-              <span className="text-sm text-red-500">
-                ¡Solo quedan {product.stock} unidades!
-              </span>
-            </div>
-          )}
+            {product.stock < 10 && (
+              <div className="mt-3">
+                <span className="text-sm text-red-500">
+                  ¡Solo quedan {product.stock} unidades!
+                </span>
+              </div>
+            )}
+          </div>
         </div>
       </Link>
     </motion.div>

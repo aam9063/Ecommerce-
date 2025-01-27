@@ -50,7 +50,7 @@ function About() {
           transition={{ delay: 0.2 }}
         >
           <img
-            src="/about-image.jpg" // Asegúrate de tener esta imagen en tu carpeta public
+            src="/public/imgs/about.webp" 
             alt="Nuestra tienda"
             className="rounded-2xl shadow-lg w-full h-[400px] object-cover"
           />

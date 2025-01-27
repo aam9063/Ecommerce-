@@ -26,12 +26,10 @@
        "stock": 34,
        "brand": "Apple",
        "category": "smartphones",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/iphone12/iph12-1.webp",
        "images": [
-         "https://via.placeholder.com/600/56a8c2",
-         "https://via.placeholder.com/600/b0f7cc",
-         "https://via.placeholder.com/600/54176f",
-         "https://via.placeholder.com/600/51aa97"
+         "/public/imgs/iphone12/iph12-1.webp",
+         "/public/imgs/iphone12/iph12-2.webp"
        ]
      },
      {
@@ -44,9 +42,10 @@
        "stock": 36,
        "brand": "Samsung",
        "category": "smartphones",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/Samsung-Universe 9/1.png",
        "images": [
-         "https://via.placeholder.com/600/810b14"
+         "/public/imgs/Samsung-Universe 9/1.png"
+         
        ]
      },
      {
@@ -59,29 +58,26 @@
        "stock": 123,
        "brand": "OPPO",
        "category": "smartphones",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/oppo/1.jpg",
        "images": [
-         "https://via.placeholder.com/600/1ee8a4",
-         "https://via.placeholder.com/600/66b7d2",
-         "https://via.placeholder.com/600/197d29",
-         "https://via.placeholder.com/600/61a65"
+         "/public/imgs/oppo/1.jpg",
+         "/public/imgs/oppo/2.webp"
        ]
      },
      {
        "id": 5,
        "title": "Huawei P30",
-       "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+       "description": "Huawei's re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
        "price": 499,
        "discountPercentage": 10.58,
        "rating": 4.09,
        "stock": 32,
        "brand": "Huawei",
        "category": "smartphones",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/huaweiP30/1.webp",
        "images": [
-         "https://via.placeholder.com/600/92c952",
-         "https://via.placeholder.com/600/771796",
-         "https://via.placeholder.com/600/24f355"
+         "/public/imgs/huaweiP30/1.webp",
+         "/public/imgs/huaweiP30/2.png"
        ]
      },
      {
@@ -109,12 +105,10 @@
        "stock": 50,
        "brand": "Samsung",
        "category": "laptops",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/sgalaxybook/1.avif",
        "images": [
-         "https://via.placeholder.com/600/92c952",
-         "https://via.placeholder.com/600/771796",
-         "https://via.placeholder.com/600/24f355",
-         "https://via.placeholder.com/600/d32776"
+         "/public/imgs/sgalaxybook/1.avif",
+         "/public/imgs/sgalaxybook/2.avif"
        ]
      },
      {
@@ -127,12 +121,10 @@
        "stock": 68,
        "brand": "Microsoft Surface",
        "category": "laptops",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/surface/1.jpg",
        "images": [
-         "https://via.placeholder.com/600/92c952",
-         "https://via.placeholder.com/600/771796",
-         "https://via.placeholder.com/600/24f355",
-         "https://via.placeholder.com/600/d32776"
+         "/public/imgs/surface/1.jpg",
+         "/public/imgs/surface/2.jpg"
        ]
      },
      {
@@ -145,12 +137,10 @@
        "stock": 96,
        "brand": "Infinix",
        "category": "laptops",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/infinix/1.jpg",
        "images": [
-         "https://via.placeholder.com/600/92c952",
-         "https://via.placeholder.com/600/771796",
-         "https://via.placeholder.com/600/24f355",
-         "https://via.placeholder.com/600/d32776"
+         "/public/imgs/infinix/1.jpg",
+         "/public/imgs/infinix/2.jpg"
        ]
      },
      {
@@ -163,394 +153,322 @@
        "stock": 89,
        "brand": "HP Pavilion",
        "category": "laptops",
-       "thumbnail": "https://via.placeholder.com/150",
+       "thumbnail": "/public/imgs/pavilion/2.jpg",
        "images": [
-         "https://via.placeholder.com/600/92c952",
-         "https://via.placeholder.com/600/771796",
-         "https://via.placeholder.com/600/24f355",
-         "https://via.placeholder.com/600/d32776"
+         "/public/imgs/pavilion/2.jpg",
+         "/public/imgs/pavilion/1.png"
+         
        ]
      },
-   {
-   "id": 11,
-   "title": "perfume Oil",
-   "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-   "price": 13,
-   "discountPercentage": 8.4,
-   "rating": 4.26,
-   "stock": 65,
-   "brand": "Impression of Acqua Di Gio",
-   "category": "fragrances",
-   "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
-   "images": [
-   "https://cdn.dummyjson.com/product-images/11/1.jpg",
-   "https://cdn.dummyjson.com/product-images/11/2.jpg",
-   "https://cdn.dummyjson.com/product-images/11/3.jpg",
-   "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
-   ]
-   },
-   {
-      "id": 11,
-      "title": "perfume Oil",
-      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-      "price": 13,
-      "discountPercentage": 8.4,
-      "rating": 4.26,
-      "stock": 65,
-      "brand": "Impression of Acqua Di Gio",
-      "category": "fragrances",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776",
-        "https://via.placeholder.com/600/f66b97"
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Brown Perfume",
-      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
-      "price": 40,
-      "discountPercentage": 15.66,
-      "rating": 4,
-      "stock": 52,
-      "brand": "Royal_Mirage",
-      "category": "fragrances",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/56a8c2",
-        "https://via.placeholder.com/600/b0f7cc",
-        "https://via.placeholder.com/600/54176f",
-        "https://via.placeholder.com/600/51aa97"
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
-      "rating": 4.59,
-      "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/810b14",
-        "https://via.placeholder.com/600/1ee8a4",
-        "https://via.placeholder.com/600/66b7d2",
-        "https://via.placeholder.com/600/197d29"
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
-      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
-      "price": 120,
-      "discountPercentage": 15.6,
-      "rating": 4.21,
-      "stock": 114,
-      "brand": "Al Munakh",
-      "category": "fragrances",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Eau De Perfume Spray",
-      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
-      "price": 30,
-      "discountPercentage": 10.99,
-      "rating": 4.7,
-      "stock": 105,
-      "brand": "Lord - Al-Rehab",
-      "category": "fragrances",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Hyaluronic Acid Serum",
-      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
-      "price": 19,
-      "discountPercentage": 13.31,
-      "rating": 4.83,
-      "stock": 110,
-      "brand": "L'Oreal Paris",
-      "category": "skincare",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Tree Oil 30ml",
-      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
-      "price": 12,
-      "discountPercentage": 4.09,
-      "rating": 4.52,
-      "stock": 78,
-      "brand": "Hemani Tea",
-      "category": "skincare",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 18,
-      "title": "Oil Free Moisturizer 100ml",
-      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
-      "price": 40,
-      "discountPercentage": 13.1,
-      "rating": 4.56,
-      "stock": 88,
-      "brand": "Dermive",
-      "category": "skincare",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Skin Beauty Serum.",
-      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
-      "price": 46,
-      "discountPercentage": 10.68,
-      "rating": 4.42,
-      "stock": 54,
-      "brand": "ROREC White Rice",
-      "category": "skincare",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Freckle Treatment Cream- 15gm",
-      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
-      "price": 70,
-      "discountPercentage": 16.99,
-      "rating": 4.06,
-      "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 21,
-      "title": "Daal Masoor 500 grams",
-      "description": "Fine quality Branded Product Keep in a cool and dry place",
-      "price": 20,
-      "discountPercentage": 4.81,
-      "rating": 4.44,
-      "stock": 133,
-      "brand": "Saaf & Khaas",
-      "category": "groceries",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355"
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Elbow Macaroni - 400 gm",
-      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
-      "price": 14,
-      "discountPercentage": 15.58,
-      "rating": 4.57,
-      "stock": 146,
-      "brand": "Bake Parlor Big",
-      "category": "groceries",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/56a8c2",
-        "https://via.placeholder.com/600/b0f7cc",
-        "https://via.placeholder.com/600/54176f",
-        "https://via.placeholder.com/600/51aa97"
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Orange Essence Food Flavour",
-      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
-      "price": 14,
-      "discountPercentage": 8.04,
-      "rating": 4.85,
-      "stock": 26,
-      "brand": "Baking Food Items",
-      "category": "groceries",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/810b14",
-        "https://via.placeholder.com/600/1ee8a4",
-        "https://via.placeholder.com/600/66b7d2",
-        "https://via.placeholder.com/600/197d29"
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Cereals Muesli Fruit Nuts",
-      "description": "Original Fauji cereal muesli 250gm box pack original Fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
-      "price": 46,
-      "discountPercentage": 16.8,
-      "rating": 4.94,
-      "stock": 113,
-      "brand": "Fauji",
-      "category": "groceries",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Gulab Powder 50 Gram",
-      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
-      "price": 70,
-      "discountPercentage": 13.58,
-      "rating": 4.87,
-      "stock": 47,
-      "brand": "Dry Rose",
-      "category": "groceries",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 26,
-      "title": "Plant Hanger For Home",
-      "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
-      "price": 41,
-      "discountPercentage": 17.86,
-      "rating": 4.08,
-      "stock": 131,
-      "brand": "Boho Decor",
-      "category": "home-decoration",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 27,
-      "title": "Flying Wooden Bird",
-      "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
-      "price": 51,
-      "discountPercentage": 15.58,
-      "rating": 4.41,
-      "stock": 17,
-      "brand": "Flying Wooden",
-      "category": "home-decoration",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 28,
-      "title": "3D Embellishment Art Lamp",
-      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button cell operated (included)",
-      "price": 20,
-      "discountPercentage": 16.49,
-      "rating": 4.82,
-      "stock": 54,
-      "brand": "LED Lights",
-      "category": "home-decoration",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Handcraft Chinese style",
-      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
-      "price": 60,
-      "discountPercentage": 15.34,
-      "rating": 4.44,
-      "stock": 7,
-      "brand": "Luxury Palace",
-      "category": "home-decoration",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Key Holder",
-      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-      "price": 30,
-      "discountPercentage": 2.92,
-      "rating": 4.92,
-      "stock": 54,
-      "brand": "Golden",
-      "category": "home-decoration",
-      "thumbnail": "https://via.placeholder.com/150",
-      "images": [
-        "https://via.placeholder.com/600/92c952",
-        "https://via.placeholder.com/600/771796",
-        "https://via.placeholder.com/600/24f355",
-        "https://via.placeholder.com/600/d32776"
-      ]
-    }
+     {
+       "id": 11,
+       "title": "iPad Pro 2023",
+       "description": "iPad Pro con chip M2, pantalla Liquid Retina XDR de 12.9 pulgadas, 256GB",
+       "price": 1099,
+       "discountPercentage": 8.5,
+       "rating": 4.8,
+       "stock": 42,
+       "brand": "Apple",
+       "category": "tablets",
+       "thumbnail": "/public/imgs/ipadpro/1.png",
+       "images": [
+         "/public/imgs/ipadpro/1.png"
+       ]
+     },
+     {
+       "id": 12,
+       "title": "Samsung Galaxy Tab S9",
+       "description": "Samsung Galaxy Tab S9 Ultra con pantalla AMOLED de 14.6 pulgadas, Snapdragon 8 Gen 2",
+       "price": 949,
+       "discountPercentage": 12.5,
+       "rating": 4.6,
+       "stock": 38,
+       "brand": "Samsung",
+       "category": "tablets",
+       "thumbnail": "/public/imgs/galaxytab/1.png",
+       "images": [
+         "/public/imgs/galaxytab/1.png"
+       ]
+     },
+     {
+       "id": 13,
+       "title": "Apple Watch Series 8",
+       "description": "Apple Watch Series 8 con GPS, caja de aluminio de 45mm, sensor de temperatura",
+       "price": 399,
+       "discountPercentage": 5.0,
+       "rating": 4.7,
+       "stock": 55,
+       "brand": "Apple",
+       "category": "smartwatches",
+       "thumbnail": "/public/imgs/watch3/1.jpg",
+       "images": [
+         "/public/imgs/watch3/1.jpg",
+         "/public/imgs/watch3/2.jpg"
+       ]
+     },
+     {
+       "id": 14,
+       "title": "Samsung Galaxy Watch 6",
+       "description": "Samsung Galaxy Watch 6 Classic con bisel giratorio, pantalla Super AMOLED",
+       "price": 349,
+       "discountPercentage": 15.0,
+       "rating": 4.5,
+       "stock": 48,
+       "brand": "Samsung",
+       "category": "smartwatches",
+       "thumbnail": "/public/imgs/galaxywatch/1.webp",
+       "images": [
+         "/public/imgs/galaxywatch/1.webp",
+         "/public/imgs/galaxywatch/2.avif"
+       ]
+     },
+     {
+       "id": 15,
+       "title": "Xiaomi Pad 6",
+       "description": "Xiaomi Pad 6 con Snapdragon 870, pantalla 2.8K de 11 pulgadas, 8GB RAM",
+       "price": 399,
+       "discountPercentage": 18.0,
+       "rating": 4.4,
+       "stock": 62,
+       "brand": "Xiaomi",
+       "category": "tablets",
+       "thumbnail": "/public/imgs/xiamopad/1.jpg",
+       "images": [
+         "/public/imgs/xiamopad/1.jpg"
+         
+       ]
+     },
+     {
+       "id": 16,
+       "title": "Google Pixel 7 Pro",
+       "description": "Google Pixel 7 Pro con Tensor G2, cámara de 50MP y pantalla OLED de 6.7 pulgadas",
+       "price": 899,
+       "discountPercentage": 10.5,
+       "rating": 4.6,
+       "stock": 45,
+       "brand": "Google",
+       "category": "smartphones",
+       "thumbnail": "/public/imgs/pixel7/1.jpg",
+       "images": [
+         "/public/imgs/pixel7/1.jpg",
+         "/public/imgs/pixel7/2.jpg"
+       ]
+     },
+     {
+       "id": 17,
+       "title": "Lenovo ThinkPad X1 Carbon",
+       "description": "Lenovo ThinkPad X1 Carbon Gen 10 con Intel Core i7, 16GB RAM, 1TB SSD",
+       "price": 1599,
+       "discountPercentage": 12.0,
+       "rating": 4.7,
+       "stock": 35,
+       "brand": "Lenovo",
+       "category": "laptops",
+       "thumbnail": "/public/imgs/lenovo/1.avif",
+       "images": [
+         "/public/imgs/lenovo/1.avif",
+         "/public/imgs/lenovo/2.avif"
+       ]
+     },
+     {
+       "id": 18,
+       "title": "OnePlus 11",
+       "description": "OnePlus 11 5G con Snapdragon 8 Gen 2, 128GB, cámara Hasselblad",
+       "price": 699,
+       "discountPercentage": 8.0,
+       "rating": 4.5,
+       "stock": 58,
+       "brand": "OnePlus",
+       "category": "smartphones",
+       "thumbnail": "/public/imgs/oneplus/1.jpg",
+       "images": [
+         "/public/imgs/oneplus/1.jpg"       ]
+     },
+     {
+       "id": 19,
+       "title": "Dell XPS 13 Plus",
+       "description": "Dell XPS 13 Plus con Intel Core i7 de 12ª gen, 32GB RAM, pantalla 4K",
+       "price": 1799,
+       "discountPercentage": 9.5,
+       "rating": 4.8,
+       "stock": 42,
+       "brand": "Dell",
+       "category": "laptops",
+       "thumbnail": "/public/imgs/dell/1.avif",
+       "images": [
+         "/public/imgs/dell/1.avif"
+       ]
+     },
+     {
+       "id": 20,
+       "title": "Xiaomi 13 Pro",
+       "description": "Xiaomi 13 Pro con Leica, Snapdragon 8 Gen 2, carga 120W",
+       "price": 899,
+       "discountPercentage": 15.0,
+       "rating": 4.4,
+       "stock": 65,
+       "brand": "Xiaomi",
+       "category": "smartphones",
+       "thumbnail": "/public/imgs/x13pro/1.webp",
+       "images": [
+         "/public/imgs/x13pro/1.webp",
+         "/public/imgs/x13pro/2.jpg"
+       ]
+     },
+     {
+       "id": 21,
+       "title": "Garmin Fenix 7",
+       "description": "Garmin Fenix 7 Sapphire Solar con GPS multibanda, autonomía de 28 días",
+       "price": 799,
+       "discountPercentage": 7.0,
+       "rating": 4.9,
+       "stock": 30,
+       "brand": "Garmin",
+       "category": "smartwatches",
+       "thumbnail": "/public/imgs/garmin/1.jpg",
+       "images": [
+         "/public/imgs/garmin/1.jpg"       ]
+     },
+     {
+       "id": 22,
+       "title": "Asus ROG Flow X13",
+       "description": "Asus ROG Flow X13 con AMD Ryzen 9, RTX 4060, pantalla táctil 120Hz",
+       "price": 1899,
+       "discountPercentage": 11.0,
+       "rating": 4.6,
+       "stock": 25,
+       "brand": "Asus",
+       "category": "laptops",
+       "thumbnail": "/public/imgs/asusrog/1.webp",
+       "images": [
+         "/public/imgs/asusrog/1.webp"
+       ]
+     },
+     {
+       "id": 23,
+       "title": "Huawei MatePad Pro",
+       "description": "Huawei MatePad Pro 13.2 con HarmonyOS, 12GB RAM, lápiz M-Pencil",
+       "price": 799,
+       "discountPercentage": 13.5,
+       "rating": 4.3,
+       "stock": 40,
+       "brand": "Huawei",
+       "category": "tablets",
+       "thumbnail": "/public/imgs/huaweimatepad/1.jpg",
+       "images": [
+         "/public/imgs/huaweimatepad/1.jpg"
+         
+       ]
+     },
+     {
+       "id": 24,
+       "title": "Nothing Phone (2)",
+       "description": "Nothing Phone (2) con interfaz Glyph, Snapdragon 8+ Gen 1",
+       "price": 699,
+       "discountPercentage": 8.5,
+       "rating": 4.5,
+       "stock": 70,
+       "brand": "Nothing",
+       "category": "smartphones",
+       "thumbnail": "/public/imgs/nothing/1.jpg",
+       "images": [
+         "/public/imgs/nothing/1.jpg"
+       ]
+     },
+     {
+       "id": 25,
+       "title": "Lenovo Tab P12 Pro",
+       "description": "Lenovo Tab P12 Pro con Snapdragon 870, pantalla AMOLED 120Hz",
+       "price": 699,
+       "discountPercentage": 16.0,
+       "rating": 4.4,
+       "stock": 45,
+       "brand": "Lenovo",
+       "category": "tablets",
+       "thumbnail": "/public/imgs/lenovotab/1.jpg",
+       "images": [
+         "/public/imgs/lenovotab/1.jpg"
+       ]
+     },
+     {
+       "id": 26,
+       "title": "Fitbit Sense 2",
+       "description": "Fitbit Sense 2 con ECG, GPS, monitoreo de estrés y sueño avanzado",
+       "price": 299,
+       "discountPercentage": 20.0,
+       "rating": 4.3,
+       "stock": 85,
+       "brand": "Fitbit",
+       "category": "smartwatches",
+       "thumbnail": "/public/imgs/fitbit/1.jpg",
+       "images": [
+         "/public/imgs/fitbit/1.jpg"
+         
+       ]
+     },
+     {
+       "id": 27,
+       "title": "Razer Blade 14",
+       "description": "Razer Blade 14 con AMD Ryzen 9, RTX 4070, 32GB RAM",
+       "price": 2499,
+       "discountPercentage": 5.0,
+       "rating": 4.7,
+       "stock": 20,
+       "brand": "Razer",
+       "category": "laptops",
+       "thumbnail": "/public/imgs/razer/1.jpg",
+       "images": [
+         "/public/imgs/razer/1.jpg"
+       ]
+     },
+     {
+       "id": 28,
+       "title": "Sony Xperia 1 V",
+       "description": "Sony Xperia 1 V con cámara profesional, pantalla 4K 120Hz",
+       "price": 1399,
+       "discountPercentage": 7.5,
+       "rating": 4.6,
+       "stock": 30,
+       "brand": "Sony",
+       "category": "smartphones",
+       "thumbnail": "/public/imgs/sony/1.webp",
+       "images": [
+         "/public/imgs/sony/1.webp"
+         
+       ]
+     },
+     {
+       "id": 29,
+       "title": "Amazfit GTR 4",
+       "description": "Amazfit GTR 4 con GPS dual, 150 modos deportivos, batería de 14 días",
+       "price": 199,
+       "discountPercentage": 25.0,
+       "rating": 4.5,
+       "stock": 95,
+       "brand": "Amazfit",
+       "category": "smartwatches",
+       "thumbnail": "/public/imgs/amazfit/1.webp",
+       "images": [
+         "/public/imgs/amazfit/1.webp"
+         
+       ]
+     },
+     {
+       "id": 30,
+       "title": "Microsoft Surface Pro 9",
+       "description": "Microsoft Surface Pro 9 con Intel Core i7, 16GB RAM, pantalla táctil 120Hz",
+       "price": 1599,
+       "discountPercentage": 10.0,
+       "rating": 4.7,
+       "stock": 50,
+       "brand": "Microsoft",
+       "category": "tablets",
+       "thumbnail": "/public/imgs/surfacepro9/1.avif",
+       "images": [
+         "/public/imgs/surfacepro9/1.avif"       ]
+     }
    ],
-   "total": 100,
+   "total": 30,
    "skip": 0,
    "limit": 30
-   }
+}

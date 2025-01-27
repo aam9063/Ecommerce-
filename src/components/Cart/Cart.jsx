@@ -1,9 +1,24 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaPlus, FaMinus, FaTrash } from 'react-icons/fa'
 import { useCart } from '../../context/CartContext'
+import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 
 function Cart() {
+  const navigate = useNavigate()
   const { cart, isCartOpen, toggleCart, updateQuantity, removeFromCart, cartTotal } = useCart()
+  const [showLoginMessage, setShowLoginMessage] = useState(false)
+
+  const handleCheckout = () => {
+    const user = localStorage.getItem('user')
+    if (!user) {
+      setShowLoginMessage(true)
+      setTimeout(() => setShowLoginMessage(false), 3000)
+      return
+    }
+    toggleCart()
+    navigate('/checkout')
+  }
 
   return (
     <AnimatePresence>
@@ -33,6 +48,12 @@ function Cart() {
                   ✕
                 </button>
               </div>
+
+              {showLoginMessage && (
+                <div className="p-4 mb-4 text-center text-white bg-red-500 rounded-lg">
+                  Debes iniciar sesión para realizar la compra
+                </div>
+              )}
 
               {cart.length === 0 ? (
                 <div className="flex items-center justify-center flex-grow">
@@ -89,7 +110,10 @@ function Cart() {
                         ${cartTotal.toFixed(2)}
                       </span>
                     </div>
-                    <button className="w-full py-3 text-white transition-colors bg-primary rounded-xl hover:bg-secondary">
+                    <button 
+                      onClick={handleCheckout}
+                      className="w-full py-3 text-white transition-colors bg-primary rounded-xl hover:bg-secondary"
+                    >
                       Finalizar Compra
                     </button>
                   </div>

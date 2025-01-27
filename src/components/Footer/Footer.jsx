@@ -58,7 +58,7 @@ function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-6">
               <img
-                src="/logo-white.png"
+                src="../public/imgs/logo-white.png"
                 alt="TechStore"
                 className="h-8"
               />
@@ -136,7 +136,7 @@ function Footer() {
           <div className="flex items-center gap-3">
             <span className="text-sm text-gray-400">Métodos de pago:</span>
             <img
-              src="/payment-methods.png"
+              src="/public/imgs/credit.jpg"
               alt="Métodos de pago"
               className="h-6"
             />

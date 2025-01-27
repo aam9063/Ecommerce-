@@ -28,25 +28,17 @@ function Hero({ featuredProducts }) {
         {featuredProducts?.map((product) => (
           <SwiperSlide key={product.id}>
             <div className="relative flex items-center w-full h-full">
-              <div
-                className="absolute inset-0 bg-center bg-cover"
-                style={{
-                  backgroundImage: `url(${product.images[0]})`,
-                }}
-              >
-                <div className="absolute inset-0 bg-black bg-opacity-40" />
-              </div>
-              <div className="container relative z-10 px-4 mx-auto">
+              <div className="container relative z-10 flex items-center justify-between px-4 mx-auto">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
-                  className="max-w-2xl text-white"
+                  className="max-w-2xl"
                 >
-                  <h2 className="mb-4 text-4xl font-bold md:text-6xl">
+                  <h2 className="mb-4 text-4xl font-bold text-gray-800 md:text-6xl">
                     {product.title}
                   </h2>
-                  <p className="mb-8 text-xl">
+                  <p className="mb-8 text-xl text-gray-600">
                     {product.description}
                   </p>
                   <div className="flex gap-4">
@@ -56,11 +48,18 @@ function Hero({ featuredProducts }) {
                     >
                       Comprar Ahora
                     </Link>
-                    <span className="text-3xl font-bold">
+                    <span className="text-3xl font-bold text-gray-800">
                       ${product.price}
                     </span>
                   </div>
                 </motion.div>
+                <div className="w-1/2 h-[60vh]">
+                  <img 
+                    src={product.images[0]} 
+                    alt={product.title}
+                    className="object-contain w-full h-full"
+                  />
+                </div>
               </div>
             </div>
           </SwiperSlide>

@@ -36,6 +36,10 @@ export function CartProvider({ children }) {
     )
   }
 
+  const clearCart = () => {
+    setCart([])
+  }
+
   const toggleCart = () => {
     setIsCartOpen(prev => !prev)
   }
@@ -48,9 +52,11 @@ export function CartProvider({ children }) {
       addToCart,
       removeFromCart,
       updateQuantity,
+      clearCart,
       isCartOpen,
       toggleCart,
-      cartTotal
+      cartTotal,
+      setIsCartOpen
     }}>
       {children}
     </CartContext.Provider>
