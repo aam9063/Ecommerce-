@@ -9,6 +9,7 @@ import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Checkout from './components/Checkout/Checkout'
 import Orders from './pages/Orders/Orders'
+import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/orders" element={<Orders />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
           <Footer />
